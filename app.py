@@ -83,7 +83,7 @@ st.markdown('<h1 class="main-header">🎯 AI Face Analyzer</h1>', unsafe_allow_h
 st.markdown('<p class="subtitle">Advanced Age & Gender Detection using Deep Learning</p>', unsafe_allow_html=True)
 
 # Configuration
-MODEL_PATH = r"\Users\Diptanu Sarkar\Desktop\Age Detection\.qodo\age_gender_cnn_utkface.h5"  # Simplified path
+MODEL_PATH = r"age_gender_cnn_utkface.h5"  # Simplified path
 IMG_SIZE = 224
 
 @st.cache_resource
@@ -463,4 +463,5 @@ else:
     st.markdown("3. ✅ Ensure TensorFlow is properly installed")
     st.markdown("4. ✅ Check file permissions")
     
+
     st.info("💡 Train the model first using the provided training script if you haven't already!")
